@@ -1,33 +1,50 @@
-# Gradle files
-.gradle/
-build/
+export default function GiriTrades() { return ( <div className="min-h-screen bg-gray-100 text-gray-800"> <header className="bg-blue-900 text-white p-6 shadow-md"> <h1 className="text-3xl font-bold">GIRI TRADES</h1> <p className="text-sm">Trading sikhiye simple steps mein!</p> </header>
 
-# Local configuration file (sdk path, etc)
-local.properties
+<main className="p-6 space-y-10">
+    <section>
+      <h2 className="text-2xl font-semibold mb-2">हमारे बारे में</h2>
+      <p>
+        Hum GIRI TRADES mein naye traders ko stock market, crypto, forex aur commodity trading ke bare mein sikhate hain. Mera mission hai: Safe aur smart trading ko har kisi tak pahuchana.
+      </p>
+    </section>
 
-# Log/OS Files
-*.log
+    <section>
+      <h2 className="text-2xl font-semibold mb-2">ट्रेडिंग की बुनियादी जानकारी</h2>
+      <ul className="list-disc pl-5">
+        <li>Trading kya hoti hai?</li>
+        <li>Stock Market vs Crypto</li>
+        <li>Long term vs Short term trading</li>
+        <li>Risk Management ke tarike</li>
+      </ul>
+    </section>
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+    <section>
+      <h2 className="text-2xl font-semibold mb-2">शुरुआत कैसे करें</h2>
+      <ol className="list-decimal pl-5">
+        <li>Broker account kaise kholein</li>
+        <li>DEMAT aur Trading account ka use</li>
+        <li>Charts aur indicators ka use</li>
+        <li>Paper Trading se practice kaise karein</li>
+      </ol>
+    </section>
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+    <section>
+      <h2 className="text-2xl font-semibold mb-2">ब्लॉग और वीडियो</h2>
+      <p>Roz naye blogs ya videos jisme market analysis, strategies aur trading psychology batayi jati hai.</p>
+    </section>
 
-# Keystore files
-*.jks
-*.keystore
+    <section>
+      <h2 className="text-2xl font-semibold mb-2">संपर्क करें</h2>
+      <p>Email: giritrades@example.com</p>
+      <p>WhatsApp: +91-XXXXXXXXXX</p>
+      <p>Instagram: @giri_trades</p>
+    </section>
+  </main>
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+  <footer className="bg-blue-900 text-white p-4 text-center">
+    &copy; 2025 GIRI TRADES. All rights reserved.
+  </footer>
+</div>
 
-# Android Profiling
-*.hprof
+); }
+
